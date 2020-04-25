@@ -7,7 +7,7 @@ html {
   .positionedIMG {
     position: absolute;
     top: 20%;
-    left: 36%;
+    left: 35%;
     width: 480px;
   }
   .haut_G {
@@ -49,4 +49,16 @@ html {
   
   .NineSquare:hover{
       filter: opacity(80%);
+  }
+
+  .Search{
+      width: 40%;
+      position: absolute;
+      top: 45%;
+      left: 30%;
+      border-radius: 25px;
+      border-color:rgb(153, 153, 153);
+  }
+  .Search:focus, .Search:hover{
+      border: 3px solid #555;
   }
