@@ -7,21 +7,21 @@ html {
   .positionedIMG {
     position: absolute;
     top: 20%;
-    left: 35%;
+    left: 36%;
     width: 480px;
   }
   .haut_G {
     position: absolute;
-    top: 2%;
+    top: 3%;
     left: 2%;
-    font-size: 12px;
+    font-size: 13px;
     color: black;
   }
   .haut_G_2{
       position: absolute;
-      top: 2%;
+      top: 3%;
       left: 8%;
-      font-size: 12px;
+      font-size: 13px;
       color: black;
   }
   .haut_G:link, .haut_G_2:link{
@@ -58,7 +58,48 @@ html {
       left: 30%;
       border-radius: 25px;
       border-color:rgb(153, 153, 153);
+      padding: 10px 10px 10px 60px;
+      font-size: 20px;
   }
   .Search:focus, .Search:hover{
-      border: 3px solid #555;
+      border: 3px solid rgb(102, 102, 102);
+  }
+  .loupeclass{
+      filter: opacity(30%);
+      position: absolute;
+      top: 47%;
+      left: 32%;
+      width: 20px;
+  }
+
+  .imgAclass{
+    position: absolute;
+    top: 3%;
+    right: 8%;
+    font-size: 13px;
+    color: black;
+  }
+
+  .imgAclass:link{
+      text-decoration: none;
+  }
+
+  .imgAclass:hover{
+      text-decoration: underline;
+  }
+
+  .gmailclass{
+      position: absolute;
+      top: 3%;
+      right: 12%;
+      font-size: 13px;
+      color: black;
+  }
+
+  .gmailclass:link{
+      text-decoration: none;
+  }
+
+  .gmailclass:hover{
+      text-decoration: underline;
   }
