@@ -24,13 +24,14 @@ html {
       font-size: 12px;
       color: black;
   }
-  a:link{
+  .haut_G:link, .haut_G_2:link{
       text-decoration: none;
   }
 
-  a:hover{
+  .haut_G:hover, .haut_G_2:hover{
       text-decoration: underline;
   }
+
   .imgIcone{
       position: absolute;
       width: 40px;
