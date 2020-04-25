@@ -6,7 +6,7 @@ html {
   
   .positionedIMG {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 36%;
     width: 480px;
   }
@@ -37,4 +37,16 @@ html {
       width: 40px;
       top: 2%;
       right: 2%;   
+  }
+
+  .NineSquare{
+      position: absolute;
+      top: 3.5%;
+      right: 6%;
+      width: 18px;
+      filter: opacity(30%);
+  }
+  
+  .NineSquare:hover{
+      filter: opacity(80%);
   }
