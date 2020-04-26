@@ -24,13 +24,6 @@ html {
       font-size: 13px;
       color: black;
   }
-  .haut_G:link, .haut_G_2:link{
-      text-decoration: none;
-  }
-
-  .haut_G:hover, .haut_G_2:hover{
-      text-decoration: underline;
-  }
 
   .imgIcone{
       position: absolute;
@@ -54,15 +47,18 @@ html {
   .Search{
       width: 40%;
       position: absolute;
+      border-style: solid;
       top: 45%;
       left: 30%;
       border-radius: 25px;
-      border-color:rgb(153, 153, 153);
+      border-width: 1px;
+      border-color:rgb(206, 206, 206);
       padding: 10px 10px 10px 60px;
       font-size: 20px;
   }
   .Search:focus, .Search:hover{
-      border: 3px solid rgb(102, 102, 102);
+      /*border: 2px solid rgb(102, 102, 102);*/
+      box-shadow: 1px 1px 1px 1px rgb(196, 195, 195);
   }
   .loupeclass{
       filter: opacity(30%);
@@ -103,3 +99,61 @@ html {
   .gmailclass:hover{
       text-decoration: underline;
   }
+
+  .bgoogle{
+      padding: 12px 12px;
+      border-style: solid;
+      position: absolute;
+      top: 55%;
+      left: 41%;
+      border-color: white;
+      border-radius: 5px; 
+      border-width: 1px;
+      color: gray;
+      font-size: 14px;
+  }
+
+  .bgoogle:hover, .bchance:hover{
+      border-color: rgb(209, 209, 209);
+  }
+
+  .bchance{
+    padding: 12px 12px;
+    border-style: solid;
+    position: absolute;
+    top: 55%;
+    right: 41%;
+    border-color: white;
+    border-radius: 5px; 
+    border-width: 1px;
+    color: gray;
+    font-size: 14px;
+  }
+
+  .restecheztoi{
+    position: absolute;
+    top: 62%;
+    left: 40%;
+    font-size: 13px;
+  }
+
+ 
+
+.dispo{
+    position: absolute;
+    top: 65%;
+    left: 44%;
+    font-size: 13px;
+}
+.eng{
+    position: absolute;
+    top: 66.7%;
+    left: 53%;
+    font-size: 13px;
+}
+.haut_G:link, .haut_G_2:link, .restecheztoi:link, .eng:link{
+    text-decoration: none;
+}
+.haut_G:hover, .haut_G_2:hover, .restecheztoi:hover, .eng:hover{
+    text-decoration: underline;
+}
