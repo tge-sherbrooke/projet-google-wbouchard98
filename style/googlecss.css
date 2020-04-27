@@ -3,7 +3,8 @@ html {
     font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
     background-color: rgb(255, 255, 255);
 }
-  
+    
+
   .positionedIMG {
     position: absolute;
     top: 20%;
@@ -57,7 +58,6 @@ html {
       font-size: 20px;
   }
   .Search:focus, .Search:hover{
-      /*border: 2px solid rgb(102, 102, 102);*/
       box-shadow: 1px 1px 1px 1px rgb(196, 195, 195);
   }
   .loupeclass{
@@ -149,11 +149,66 @@ html {
     position: absolute;
     top: 66.7%;
     left: 53%;
-    font-size: 13px;
+    font-size: 14px;
 }
-.haut_G:link, .haut_G_2:link, .restecheztoi:link, .eng:link{
+
+.pub{
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
+.can{
+    position: absolute;
+    bottom: 5.5%;
+    left: 2%;
+    font-size: 14px;
+    color: rgb(107, 107, 107);
+}
+
+.ent{
+    position: absolute;
+    bottom: 2%;
+    left: 8%;
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
+
+.comment{
+    position: absolute;
+    bottom: 2%;
+    left: 14%;
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
+
+.conf{
+    position: absolute;
+    bottom: 2%;
+    right: 20%;
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
+
+.utili{
+    position: absolute;
+    bottom: 2%;
+    right: 8%;
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
+
+.para{
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
+.haut_G:link, .haut_G_2:link, .restecheztoi:link, .eng:link, .pub:link, .ent:link, .comment:link, .conf:link, .utili:link, .para:link{
     text-decoration: none;
 }
-.haut_G:hover, .haut_G_2:hover, .restecheztoi:hover, .eng:hover{
+.haut_G:hover, .haut_G_2:hover, .restecheztoi:hover, .eng:hover, .pub:hover, .ent:hover, .comment:hover, .conf:hover, .utili:hover, .para:hover{
     text-decoration: underline;
 }
